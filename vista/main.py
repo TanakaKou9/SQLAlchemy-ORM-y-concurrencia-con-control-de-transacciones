@@ -1,4 +1,5 @@
-from controlador import operaciones  
+from controlador.operaciones import agregar_libro, listar_libros
+import controlador.operaciones as operaciones
 
 def mostrar_menu():
     print("\n=== GESTOR DE LIBROS Y CATEGORÍAS ===")

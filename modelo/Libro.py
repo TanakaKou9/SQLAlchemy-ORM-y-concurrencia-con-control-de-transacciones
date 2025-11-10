@@ -1,8 +1,8 @@
 from pathlib import Path
 from sqlalchemy import create_engine, Column, Integer,ForeignKey, String, Float
-from sqlalchemy.orm import declarative_base, relationship,  sessionmaker
+from sqlalchemy.orm import  relationship,  sessionmaker
+from modelo.Categoria import Categoria, Base
 
-Base = declarative_base()
 
 DATA_DIR = Path("datos")
 
@@ -26,4 +26,7 @@ class Libro(Base):
 
     def __repr__(self) -> str:
         return f"<Libro id={self.id} titulo='{self.titulo}' autor='{self.autor}' precio={self.precio:.2f} categoria_id={self.categoria_id}>"
+
+
+
 Base.metadata.create_all(engine)
