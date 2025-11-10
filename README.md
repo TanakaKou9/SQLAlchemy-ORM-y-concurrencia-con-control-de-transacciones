@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 # SQLAlchemy-ORM-y-concurrencia-con-control-de-transacciones
-Este proyecto implementa un **sistema de gestión de libros** utilizando el patrón **MVC (Modelo–Vista–Controlador)**, la librería **SQLAlchemy** para la persistencia de datos, y **concurrencia con hilos** para simular operaciones simultáneas en la base de datos.
+=======
+# 📚 Taller #3 — Sistema de Gestión de Libros (MVC + SQLAlchemy + Concurrencia)
+
+## 👥 Integrantes
+- **Nombre 1:** Chica Becerra- 202420200335
+- **Nombre 2:** Daniela Murillo Castañeda- 20241020051
+---
+
+## 🧩 Descripción General
